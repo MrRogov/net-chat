@@ -46,13 +46,16 @@ namespace NetChat.Service.Controllers
             if (updates.Type == "confirmation")
                 return Ok(_configuration["Config:Confirmation"]);
 
-            var msg = Message.FromJson(new VkResponse(updates.Object));
-            _vkApi.Messages.Send(new VkNet.Model.RequestParams.MessagesSendParams
+            if (updates.Type == "message_new")
             {
-                RandomId = new DateTime().Millisecond,
-                PeerId = msg.PeerId.Value,
-                Message = msg.Text
-            });
+                var msg = Message.FromJson(new VkResponse(updates.Object));
+                _vkApi.Messages.Send(new VkNet.Model.RequestParams.MessagesSendParams
+                {
+                    RandomId = new DateTime().Millisecond,
+                    PeerId = msg.PeerId.Value,
+                    Message = msg.Text
+                });
+            }
 
             return Ok();
         }
