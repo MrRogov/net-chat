@@ -49,12 +49,35 @@ namespace NetChat.Service.Controllers
             if (updates.Type == "message_new")
             {
                 var msg = Message.FromJson(new VkResponse(updates.Object));
+
+                //_vkApi.Messages.Send(new VkNet.Model.RequestParams.MessagesSendParams
+                //{
+                //    RandomId = new DateTime().Millisecond,
+                //    PeerId = msg.PeerId.Value,
+                //    Message = msg.Text
+                //});
+
+                var users = new List<ulong>(); 
+                users.Add((ulong)msg.UserId.Value);
+
+                var chatid1 = _vkApi.Messages.CreateChat(users, "диалог с внешним пользователем 1");
+
+                var chatid2 = _vkApi.Messages.CreateChat(users, "диалог с внешним пользователем 2");
+
                 _vkApi.Messages.Send(new VkNet.Model.RequestParams.MessagesSendParams
                 {
                     RandomId = new DateTime().Millisecond,
-                    PeerId = msg.PeerId.Value,
+                    PeerId = chatid1,
                     Message = msg.Text
                 });
+
+                _vkApi.Messages.Send(new VkNet.Model.RequestParams.MessagesSendParams
+                {
+                    RandomId = new DateTime().Millisecond,
+                    PeerId = chatid2,
+                    Message = msg.Text
+                });
+
             }
 
             return Ok("ok");
