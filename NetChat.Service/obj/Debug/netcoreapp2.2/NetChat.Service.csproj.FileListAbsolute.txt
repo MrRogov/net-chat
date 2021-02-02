@@ -1,0 +1,4 @@
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp2.2\NetChat.Service.csprojAssemblyReference.cache
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp2.2\NetChat.Service.AssemblyInfoInputs.cache
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp2.2\NetChat.Service.AssemblyInfo.cs
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp2.2\NetChat.Service.csproj.CoreCompileInputs.cache

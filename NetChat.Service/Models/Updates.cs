@@ -1,5 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 /// <summary>
 /// Summary description for Class1
@@ -11,7 +12,7 @@ public class Updates
     public string Type { get; set; }
 
     [JsonProperty("object")]
-    public object Object { get; set; }
+    public JObject Object { get; set; }
 
     [JsonProperty("group_id")]
     public long GroupId { get; set; }
