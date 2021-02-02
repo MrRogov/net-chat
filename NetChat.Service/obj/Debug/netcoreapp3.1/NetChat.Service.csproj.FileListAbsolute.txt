@@ -1,0 +1,12 @@
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\bin\Debug\netcoreapp3.1\NetChat.Service.exe
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp3.1\NetChat.Service.csprojAssemblyReference.cache
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp3.1\NetChat.Service.AssemblyInfoInputs.cache
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp3.1\NetChat.Service.AssemblyInfo.cs
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp3.1\NetChat.Service.RazorTargetAssemblyInfo.cache
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp3.1\staticwebassets\NetChat.Service.StaticWebAssets.Manifest.cache
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp3.1\staticwebassets\NetChat.Service.StaticWebAssets.xml
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\drogov\source\repos\NetChat\NetChat.Service\obj\Debug\netcoreapp3.1\NetChat.Service.csproj.CopyComplete
