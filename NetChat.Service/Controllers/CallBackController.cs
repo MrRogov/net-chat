@@ -57,7 +57,7 @@ namespace NetChat.Service.Controllers
                 });
             }
 
-            return Ok();
+            return Ok("ok");
         }
 
         // PUT api/<ValuesController>/5
